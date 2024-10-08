@@ -32,7 +32,7 @@ const LoginForm: React.FC = () => {
 
     try {
       const response = await axios.post(
-        "https://foot-wear-server.vercel.app/api/user/login",
+        "https://sneaker-store-kappa.vercel.app/api/user/login",
         { email, password },
         {
           headers: {

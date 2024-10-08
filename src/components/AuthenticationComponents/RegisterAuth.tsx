@@ -85,7 +85,7 @@ const RegistrationForm: React.FC = () => {
 
     try {
       const response = await axios.post(
-        "https://foot-wear-server.vercel.app/api/user/register",
+        "https://sneaker-store-kappa.vercel.app/api/user/register",
         { username, email, password },
         {
           headers: {
