@@ -52,7 +52,7 @@ export const ProductProvider: React.FC<PropsWithChildren<{}>> = ({
   const fetchProducts = async () => {
     try {
       const response = await axios.get(
-        "https://foot-wear-server.vercel.app/api/getallproducts"
+        "https://sneaker-store-kappa.vercel.app/api/getallproducts"
       );
 
       // Check for successful response status:

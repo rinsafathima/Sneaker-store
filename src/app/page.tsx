@@ -36,7 +36,7 @@ export default function Home() {
       {isOpen && (
         <Dialog defaultOpen>
           <DialogContent className="flex flex-col items-center justify-center">
-            <p className="text-xl">FOOTWEAR</p>
+            <p className="text-xl">SNEAKERS</p>
             <p className="text-5xl font-bold">Get 5$ off</p>
             <p className="text-gray-500">when you sign up for our newsletter</p>
             <Input

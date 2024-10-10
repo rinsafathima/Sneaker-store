@@ -27,7 +27,7 @@ app.use("/api", paymentSession);
 
 passwordDB = process.env.DATABASE_PASSWORD;
 
-const uri = `mongodb+srv://FootWear:${passwordDB}@footwear.dhb4soj.mongodb.net/FootWearProducts?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://rinsacodezela:3SxADROfVXFebEqI@cluster0.zbuv3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 mongoose
   .connect(uri, {

@@ -34,7 +34,7 @@ router.post("/api/forgotPassword", async (req, res) => {
       to: user.email,
       subject: "Password Reset Request",
       html: `
-            <p>You requested a password reset. Click <a href="https://foot-wear-one.vercel.app/resetpassword/${resetToken}">here</a> to reset your password.</p>
+            <p>You requested a password reset. Click <a href="https://sneaker-store-kappa.vercel.app/resetpassword/${resetToken}">here</a> to reset your password.</p>
             <p>This link will expire in 1 hour.</p>
           `,
     });
