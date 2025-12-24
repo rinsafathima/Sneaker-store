@@ -4,8 +4,6 @@ import { Button } from './ui/button';
 import { useCart } from '../contexts/CartContext'; 
 import Link from 'next/link';
 
-
-
 interface CartItem {
   id: string;
   name: string;
