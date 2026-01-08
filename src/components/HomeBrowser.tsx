@@ -7,7 +7,6 @@ import { useSearchParams } from 'next/navigation';
 
 export default function HomeBrowser() {
 
-
   const { products } = useContext(ProductContext);
   const [selectedCategory, setSelectedCategory] = useState('all')
       const searchParams = useSearchParams();
@@ -23,8 +22,6 @@ export default function HomeBrowser() {
         };
 
         const filteredItems = selectedCategory.toLowerCase() === 'all' ? products : products.filter(item => item.category.toLowerCase() === selectedCategory.toLowerCase());
-
-
 
    
   return (

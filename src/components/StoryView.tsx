@@ -1,8 +1,6 @@
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import { Dialog, DialogContent, DialogTrigger } from './ui/dialog';
 
-
-
 export default function StoryView(){
     return (
         <div className="relative w-full min-h-[40vh] h-fit p-4 flex flex-wrap items-center justify-center sm:gap-12 mx-auto mt-[10vh] storydiv">

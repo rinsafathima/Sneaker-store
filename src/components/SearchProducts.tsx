@@ -2,7 +2,6 @@ import ProductContext from '@/contexts/DbProdcutsContext';
 import React, { useContext, useEffect, useState } from 'react'
 import ItemCard from './ItemCard';
 
-
 interface Product {
   id: string;
   name: string;
@@ -14,8 +13,6 @@ interface Product {
   backgroundLink: string;
   quantity : number;
 }
-
-
 
 
 function SearchProducts(props:{

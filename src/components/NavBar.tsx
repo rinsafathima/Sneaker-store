@@ -9,7 +9,7 @@ import {
 import { IoMdPerson } from "react-icons/io";
 import { IoCartOutline, IoLogIn } from "react-icons/io5";
 import { IoSearchOutline } from "react-icons/io5";
-import "../app/globals.css";
+// import "../app/globals.css";
 import TemporaryDrawer from "./Drawer";
 import { MdKeyboardArrowDown } from "react-icons/md";
 

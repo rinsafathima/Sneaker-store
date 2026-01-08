@@ -7,8 +7,7 @@ export default function LayoutTop(props : {
 }){
 
     const randomNum = Math.floor(Math.random() * 7);
-
-    
+  
     const classNames = ['storydiv', 'storydiv1', 'storydiv2', 'storydiv3', 'storydiv4', 'storydiv5', 'storydiv6'];
 
    

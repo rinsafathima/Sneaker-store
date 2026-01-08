@@ -1,4 +1,3 @@
-
 import ResetPassAuth from '@/components/AuthenticationComponents/ResetPassAuth'
 import React from 'react'
 

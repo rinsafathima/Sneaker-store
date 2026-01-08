@@ -1,8 +1,8 @@
 "use client"
-import '@/app/globals.css'
+// import '@/app/globals.css'
 import Link from 'next/link';
 import Aos from "aos";
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 
 import { useState, useEffect } from 'react';
 

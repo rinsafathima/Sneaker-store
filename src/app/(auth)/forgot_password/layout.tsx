@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
-
-import "../../globals.css";
-
+// import "../../globals.css";
 import LayoutTop from "@/components/LayoutTop";
 import { CartProvider } from "@/contexts/CartContext";
-
-
-
 
 export const metadata: Metadata = {
   title: "Reset Your Passwrod",
@@ -21,7 +16,6 @@ export default function RootLayout({
   return (
     <div>
       
-       
       <LayoutTop text="RESET YOUR PASSWORD" />
       <CartProvider>
         {children}

@@ -1,4 +1,3 @@
-
 import RegistrationForm from '@/components/AuthenticationComponents/RegisterAuth'
 import React from 'react'
 

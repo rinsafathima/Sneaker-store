@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import "./globals.css";
+// import "./globals.css";
 
 import { CartProvider } from "@/contexts/CartContext";
 import { ProductProvider } from "@/contexts/DbProdcutsContext";

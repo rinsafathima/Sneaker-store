@@ -1,6 +1,6 @@
 'use client'
 import Aos from "aos";
-import 'aos/dist/aos.css'
+// import 'aos/dist/aos.css'
 import { useContext, useEffect } from "react";
 import React from 'react';
 import ProductContext from '@/contexts/DbProdcutsContext';
@@ -19,8 +19,6 @@ const HomeFeaturedItemsContainer: React.FC = () => {
         Aos.init({duration : 1000})
      
     },[])
-
-
 
     return (
         <div  data-aos='fade-up'>
